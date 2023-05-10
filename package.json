@@ -1,0 +1,15 @@
+{
+  "name": "pub-bbx-lint",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "bin": {
+    "pub-bbx-lint": "cmd"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo 'Error: no test specified' && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}

@@ -1,0 +1,68 @@
+{
+  "root": true,
+  "parser": "vue-eslint-parser",
+  "plugins": [
+    "vue"
+  ],
+  "extends": [
+    "plugin:vue/recommended"
+  ],
+  "rules": {
+    "arrow-body-style": ["warn", "as-needed"],
+    "curly": "warn",
+    "dot-notation": "warn",
+    "no-floating-decimal": "warn",
+    "no-lonely-if": "warn",
+    "no-unneeded-ternary": "warn",
+    "no-useless-rename": "warn",
+    "no-var": "warn",
+    "object-shorthand": "warn",
+    "operator-assignment": "warn",
+    "prefer-const": "warn",
+    "prefer-destructuring": "warn",
+    "prefer-object-spread": "warn",
+    "prefer-template": "warn",
+    "sort-vars": "warn",
+    "array-bracket-spacing": "warn",
+    "arrow-parens": "warn",
+    "arrow-spacing": "warn",
+    "block-spacing": "warn",
+    "brace-style": "warn",
+    "comma-spacing": "warn",
+    "computed-property-spacing": "warn",
+    "func-call-spacing": "warn",
+    "generator-star-spacing": "warn",
+    "key-spacing": "warn",
+    "keyword-spacing": "warn",
+    "newline-per-chained-call": "warn",
+    "no-multi-spaces": "warn",
+    "no-trailing-spaces": "warn",
+    "no-whitespace-before-property": "warn",
+    "object-curly-spacing": "warn",
+    "quotes": "warn",
+    "rest-spread-spacing": "warn",
+    "space-in-parens": "warn",
+    "space-infix-ops": "warn",
+    "space-unary-ops": "warn",
+    "switch-colon-spacing": "warn",
+    "template-curly-spacing": "warn",
+    "wrap-iife": "warn",
+    "wrap-regex": "warn",
+    "yield-star-spacing": "warn",
+
+    "vue/multi-word-component-names": "off",
+    "vue/new-line-between-multi-line-property": "warn",
+    "vue/no-useless-mustaches": ["warn", {
+      "ignoreIncludesComment": true,
+      "ignoreStringEscape": true
+    }],
+    "vue/no-useless-v-bind": ["warn", {
+      "ignoreIncludesComment": true,
+      "ignoreStringEscape": true
+    }],
+    "vue/padding-line-between-blocks": "warn",
+    "vue/prefer-separate-static-class": "warn",
+    "vue/script-indent": "warn",
+    "vue/static-class-names-order": "warn"
+  }
+}
